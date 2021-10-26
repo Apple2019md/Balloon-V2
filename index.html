@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        // ...
+
+        apiKey: "AIzaSyCH9Sw-cpNU98iKuWFkg0FgqAqzMTYJ6oE",
+        authDomain: "ball-a8b74.firebaseapp.com",
+        databaseURL: "https://ball-a8b74-default-rtdb.firebaseio.com",
+        projectId: "ball-a8b74",
+        storageBucket: "ball-a8b74.appspot.com",
+        messagingSenderId: "314464851152",
+        appId: "1:314464851152:web:089c85dcad7cf1f3fd7ad5",
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
